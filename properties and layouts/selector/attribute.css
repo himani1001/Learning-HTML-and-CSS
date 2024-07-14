@@ -1,0 +1,15 @@
+*{
+    font-size: 2rem;
+}
+/* li[class="a"]{
+    color: rgb(61, 181, 141);
+} */
+li[class~="a"]{
+    color: aqua;
+}
+h1{
+    padding-left: 25px;
+}
+ul{
+    padding-left: 80px;
+}

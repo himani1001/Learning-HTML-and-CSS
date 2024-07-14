@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="specifivity.css">
+    <title>Specificity</title>
+    <style>
+        .Favorite{
+            color: tomato;
+            font-weight: bold; /*if it was ul#Books li.Favorite then this block should work because its specificity will become higher*/
+        }
+        ul{
+            padding-left: 70px;
+        }
+        #Books li{
+            font-size: 4em;
+            color: darkgreen;
+            font-weight: normal;/*specificity will be given to this one*/
+        }
+    </style>
+</head>
+<body>
+    <ul id="Books">
+        <li>Ugly Love</li>
+        <li class="Favorite">Punk 57</li>
+        <li>The Fine Print</li>
+    </ul>
+</body>
+</html>

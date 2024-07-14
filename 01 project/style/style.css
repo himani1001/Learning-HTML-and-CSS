@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* to delete default margin */
+}
+header{
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(128, 128, 241);
+    color: white;
+}
+header h1{
+    font-size: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center; /* to align nav bar */
+    padding: 20px;
+    float: left;/* using this element go outside box property and goes in the area you have given*/
+}
+nav{
+    display: flex;
+    background-color: black;
+    overflow: hidden; /*so overflow na ho and we can see all the box property that get hidden using float*/
+}
+nav a:hover{
+    color: rgb(48, 48, 211);
+}       
+/* nav a:visited{
+    color: rgb(109, 109, 215);
+} */
+section{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+    color: blueviolet;
+    height: 100vh;
+}
+
+section a{
+    color: blueviolet;
+}
+
+section a:hover{
+    color: rgb(48, 48, 211);
+}
+
+section:nth-child(even){
+    background-color: whitesmoke;
+}
+
+img{
+    padding: 0px 20px;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+p{
+    padding: 0px 120px;
+}
+
+footer a{
+    display: block;
+    background-color: rgb(128, 128, 241);
+    padding: 15px 20px;
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(48, 48, 211);
+}
+
+.flex-align-right{
+    margin-left: auto;
+}
+
+.carousel-cell {
+  width: 66%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.carousel-cell img{
+    max-width: 100%;
+}
+
+.img-responsive{
+    max-width: 100vh;
+    height: 60vh;
+}
+
+.profile_name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px 0px 20px 0px;
+}
+
+.profile_img{
+    border-radius: 50%;
+    margin:  0px 0px 30px 0px;
+}
+
+.sm-handle a{
+    color: blueviolet;
+}
+
+.sm-handle a:hover{
+    color: rgb(48, 48, 211);
+}
+
+.insta-handle{
+    color: #dd2a7b;
+}
+
+@media screen and (max-width: 700px){
+    nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+
+    .flex-align-right{
+        margin-left: 0;
+    }
+}

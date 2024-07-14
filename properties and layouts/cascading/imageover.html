@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image overflow</title>
+    <style>
+        .box{
+            width: 50px;
+            height: 100px;
+            /* padding: 30px; */
+            border:3px solid blue;
+            margin: 2px;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+            /* object-fit: contain; */  /*size choti*/
+            /* object-fit: cover; */ /*enlarge*/
+            /* object-fit: scale-down; */
+            /* object-fit: none; */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box"><img src="img/From Lukov With Love.png" alt=""></div>
+        <div class="box"><img src="img/the fine print.png" alt=""></div>
+    </div>
+</body>
+</html>
