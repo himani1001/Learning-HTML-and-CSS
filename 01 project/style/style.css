@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-size: 2rem;
 }
 body{
     margin: 0;
@@ -38,7 +39,7 @@ section{
     text-align: center;
     padding-top: 40px;
     color: blueviolet;
-    height: 100vh;
+    height: 90vh;
 }
 
 section a{
@@ -104,13 +105,24 @@ footer a:hover{
     margin: 20px 0px 20px 0px;
 }
 
+.last-section {
+    height: auto;
+    padding: 20px;
+    margin: 20px 0;
+}
+.sm-handle i {
+    margin-right: 5px; /* Add some space between the icon and text */
+}
+
 .profile_img{
     border-radius: 50%;
     margin:  0px 0px 30px 0px;
+    width: 300px; /* Adjust the image width if needed */
 }
 
 .sm-handle a{
     color: blueviolet;
+    font-size: 1.5rem; /* Adjust the size of social media links */
 }
 
 .sm-handle a:hover{
