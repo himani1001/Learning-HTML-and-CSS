@@ -1,12 +1,12 @@
 <h1>Properties and Layouts with HTML and CSS </h1> <br>
 This repository covers the HTML and CSS, including examples of CSS properties, selectors, and responsiveness.
 
-<h3>Contents </h3> <br>
+<h2>Contents </h2> <br>
 HTML Files: advance_propert.html, box-sizing.html, page2.html, paymentForm.html, start.html, zindex.html <br>
 CSS Files: class.css, form.css, style.css <br>
 Directories: Layoutcss, Novels, cascading, cssproperty, img, responsiveness, selector <br>
 
-<h3>Layout and Responsiveness </h3> <br>
+<h2>Layout and Responsiveness </h2> <br>
 Flexbox and Grid: See Layoutcss. <br>
 Media Queries: See responsiveness. <br>
 
@@ -22,8 +22,8 @@ Media Queries: See responsiveness. <br>
 ![Screenshot 2024-07-07 115156](https://github.com/user-attachments/assets/db55d07e-20c3-4e8e-8adf-082d9f76ac8d)
 ![Screenshot 2024-07-07 115231](https://github.com/user-attachments/assets/6b3261c4-1ecb-43f7-8108-d40b6056e8e4)
 
-<h3>Contribution</h3> <br>
+<h2>Contribution</h2> <br>
 Fork the repository and submit pull requests.
 
-<h3>License </h3> <br>
+<h2>License </h2> <br>
 This project is licensed under the MIT License.
