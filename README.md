@@ -1,5 +1,5 @@
 <h1>Properties and Layouts with HTML and CSS </h1> <br>
-This repository covers the HTML and CSS Box Model, including examples of CSS properties, selectors, and responsiveness.
+This repository covers the HTML and CSS, including examples of CSS properties, selectors, and responsiveness.
 
 <h3>Contents </h3> <br>
 HTML Files: advance_propert.html, box-sizing.html, page2.html, paymentForm.html, start.html, zindex.html <br>
