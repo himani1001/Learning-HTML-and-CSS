@@ -1,3 +1,5 @@
+In properties and layout folder I have used simple html and css
+
 01 project
 
 ![Screenshot 2024-07-08 143933](https://github.com/user-attachments/assets/f271a2a7-93ba-4f67-b1e2-92f8ee946e81)
